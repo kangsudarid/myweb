@@ -107,7 +107,7 @@ function ProjectCard({ project, index }: { project: typeof homeContent.projects[
         </div>
         <div className="project-card-body">
           <div>
-            <span className={`project-label${project.category === "MVP" ? " project-label--green" : project.category === "Streaming platform" ? " project-label--warm" : ""}`}>{project.category}</span>
+            <span className="project-label">{project.category}</span>
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <div className="tag-list">
