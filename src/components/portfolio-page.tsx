@@ -224,7 +224,6 @@ export function MorePreviewSection() {
       <div className="page-shell">
         <Reveal className="more-preview-grid">
           <div className="more-preview-copy">
-            <p className="more-preview-kicker">beyond the code editor ✎</p>
             <h2 className="display-heading">More than<br /><span>code.</span></h2>
             <p className="more-preview-text">A few things I&apos;m into when I&apos;m not building things.</p>
             <div className="more-preview-actions">
@@ -239,9 +238,6 @@ export function MorePreviewSection() {
               <span className="more-preview-card-list">music · tech · coffee · anything interesting</span>
               <span className="more-preview-card-play">▶</span>
             </div>
-            <span className="more-doodle more-doodle-arrow">→</span>
-            <span className="more-doodle more-doodle-note">♪</span>
-            <span className="more-doodle more-doodle-star">✶</span>
           </div>
         </Reveal>
       </div>
