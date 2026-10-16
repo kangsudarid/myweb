@@ -1257,3 +1257,5 @@ section[id] { scroll-margin-top: 96px; }
   .more-video-grid { gap: 28px; margin-top: 30px; }
   .more-closing { padding: 68px 0 60px; }
 }
+
+.footer-links { display: flex; align-items: center; gap: 18px; }
