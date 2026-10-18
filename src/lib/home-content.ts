@@ -116,7 +116,7 @@ export const homeContent = {
     eyebrow: "EXPERIENCE",
     role: "Web Developer Intern",
     company: "IntelligenceX",
-    period: "2026 - present",
+    period: "July 2026 - present",
     description:
       "Building and maintaining web applications, exploring modern technologies, and contributing to impactful products.",
     quote: "Build with curiosity. Ship with purpose.",
