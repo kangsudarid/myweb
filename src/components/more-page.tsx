@@ -90,7 +90,6 @@ export function MorePage() {
         <section className="more-hero paper-texture">
           <div className="page-shell more-hero-inner">
             <div className="more-hero-copy">
-              <p className="more-kicker">A LITTLE EXTRA</p>
               <h1 className="display-heading more-hero-title">
                 <span>More than</span>
                 <span>code.</span>
@@ -107,11 +106,6 @@ export function MorePage() {
                 priority
                 sizes="(max-width: 767px) 72vw, (max-width: 1000px) 42vw, 32vw"
               />
-              <div className="more-hero-doodles" aria-hidden="true">
-              <span className="more-doodle more-doodle-star">✶</span>
-              <span className="more-doodle more-doodle-note">♪</span>
-              <span className="more-doodle more-doodle-play">▶</span>
-            </div>
             </div>
           </div>
         </section>

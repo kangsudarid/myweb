@@ -76,7 +76,6 @@ export default async function MoreVideoDetailPage({ params }: Props) {
             <Link className="more-video-back" href="/more">
               <span aria-hidden="true">←</span> More videos
             </Link>
-            <p className="more-kicker">{category}</p>
             <h1 className="display-heading more-video-detail-title">{video.title}</h1>
             <p className="more-video-detail-summary">{video.summary}</p>
             <div className="more-video-detail-frame">
