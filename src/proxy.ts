@@ -1,6 +1,6 @@
 ﻿import { NextResponse, type NextRequest } from "next/server";
 
-const homeMarkdown = `# Ujjwal Baunthiyal | ujjwaluzu
+const homeMarkdown = `# Sudar Blogger | Personal Website
 
 Web developer exploring ideas, building products, and turning concepts into real experiences.
 
