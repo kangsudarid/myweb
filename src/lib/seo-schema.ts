@@ -10,9 +10,9 @@ export const defaultSocialImage = `${site.domain}/assets/ujjwal-character.webp`;
 export function personSchema() {
   return {
     "@type": "Person",
-    "@id": `${site.domain}/#ujjwal-baunthiyal`,
+    "@id": `${site.domain}/#sudar-blogger`,
     name: "Ujjwal Baunthiyal",
-    alternateName: ["Ujjwal", "ujjwaluzu"],
+    alternateName: ["Sudar", "Blogger"],
     url: site.domain,
     jobTitle: "Web Developer",
     worksFor: { "@type": "Organization", name: "IntelligenceX" },
@@ -43,7 +43,7 @@ export function projectSchema(project: Project, study: ProjectCaseStudy) {
         "@type": "WebPage",
         "@id": `${projectUrl}#webpage`,
         url: projectUrl,
-        name: `${project.name} by Ujjwal Baunthiyal`,
+        name: `${project.name} by Sudar Blogger`,
         description: study.seoDescription,
         isPartOf: { "@id": `${site.domain}/#website` },
         about: { "@id": `${projectUrl}#software` },
@@ -58,7 +58,7 @@ export function projectSchema(project: Project, study: ProjectCaseStudy) {
         creator: { "@id": `${site.domain}/#ujjwal-baunthiyal` },
         author: { "@id": `${site.domain}/#ujjwal-baunthiyal` },
         programmingLanguage: study.heroTechs,
-        keywords: [project.name, "Ujjwal Baunthiyal", "ujjwaluzu", ...project.technologies],
+        keywords: [project.name, "Sudar Blogger"," sudar", ...project.technologies],
         ...(image ? { image } : {}),
       },
       breadcrumbSchema([
@@ -81,14 +81,14 @@ export function videoSchema(video: MoreVideo, category: VideoCategory) {
       {
         "@type": "VideoObject",
         "@id": `${videoUrl}#video`,
-        name: video.title ?? "Ujjwaluzu video",
+        name: video.title ?? "Sudar video",
         description,
         url: videoUrl,
         contentUrl: watchUrl,
         embedUrl: `https://www.youtube.com/embed/${video.id}`,
         thumbnailUrl: [`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`],
-        publisher: { "@id": `${site.domain}/#ujjwal-baunthiyal` },
-        creator: { "@id": `${site.domain}/#ujjwal-baunthiyal` },
+        publisher: { "@id": `${site.domain}/#sudar-blogger` },
+        creator: { "@id": `${site.domain}/#sudar-blogger` },
         isPartOf: { "@id": `${site.domain}/more#collection` },
       },
       breadcrumbSchema([
