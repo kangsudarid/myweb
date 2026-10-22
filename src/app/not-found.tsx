@@ -6,7 +6,7 @@ export default function NotFound() {
     <main className="nf-page">
       <Link href="/" className="brand-lockup nf-brand" aria-label="ujjwaluzu home">
         <Image className="brand-favicon" src="/assets/faviconicon.webp" alt="" width={1254} height={1254} />
-        <span className="brand-name">ujjwaluzu</span>
+        <span className="brand-name">Sudar Blogger</span>
       </Link>
 
       <span className="nf-code" aria-hidden="true">404</span>
