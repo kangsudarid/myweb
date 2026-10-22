@@ -1,14 +1,14 @@
 export const homeContent = {
   identity: {
-    name: "Ujjwal Baunthiyal",
-    brand: "ujjwaluzu",
-    monogram: "U",
+    name: "Sudar Blogger",
+    brand: "kangsudar",
+    monogram: "K",
   },
   hero: {
     eyebrow: "WEB DEVELOPER",
     intro: "Hey, I'm",
-    firstName: "UJJWAL",
-    lastName: "BAUNTHIYAL",
+    firstName: "SUDAR",
+    lastName: "BLOGGER",
     tagline: "I like to build things for the web.",
     description:
       "Web Developer Intern at IntelligenceX, exploring ideas, building products, and turning concepts into real experiences.",
